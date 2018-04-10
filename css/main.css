@@ -19,8 +19,36 @@
 		margin-top: -20px !important;
 	}
 
-	.btn-scroll-down{
-		margin-top: 200px !important;
+	#div-home{
+		width:0px;
+	}
+
+	#div-what-we-do{
+		width:0px;
+	}
+
+	#div-testimonial{
+		width: 0px;
+	}
+
+	#div-contact-us{
+		width: 0px;
+	}
+
+	#div-meet-the-team{
+		width:0px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+	#main h1{
+		margin-top: 2.2em !important;
+		font-size: 4em !important;
+	}
+
+	#as-seen-on > div:nth-child(2) > div > div.col-lg-3 > img{
+		width: 250px !important;
 	}
 
 	#div-home{
@@ -38,17 +66,9 @@
 	#div-contact-us{
 		width: 0px;
 	}
-}
 
-@media (min-width: 576px) and (max-width: 767.98px)
-{
-	#main h1{
-		margin-top: 2.2em !important;
-		font-size: 4em !important;
-	}
-
-	#as-seen-on > div:nth-child(2) > div > div.col-lg-3 > img{
-		width: 250px !important;
+	#div-meet-the-team{
+		width:0px;
 	}
 }
 
@@ -72,6 +92,10 @@
 
 	#div-contact-us{
 		width: 87px;
+	}
+
+	#div-meet-the-team{
+		width:90px;
 	}
 
 	#main h1{
@@ -252,6 +276,15 @@
 	top: 0;
 }
 
+.button-clicked-meet-the-team
+{
+	background-color: #54d154;
+	width: 145px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+}
+
 .carousel-control-next-icon {
     background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%487070' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
@@ -273,7 +306,7 @@
 }
 
 #home {
-    background: url("../resources/img/1.jpg") no-repeat center center;
+    background: url("../resources/img/backgroundtje.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -324,6 +357,10 @@
     height: 30px;
     margin-left: 12px;
     margin-top: 4px;
+}
+
+.selected-items:hover{
+	background-color: rgba(0,0,0, 0.5);
 }
 
 #line-darkgreen {
@@ -382,7 +419,7 @@ h2 {
 #home > nav > div.navbar-collapse.collapse.w-100.order-3.dual-collapse2 > ul > form > input {
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.8);
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -618,6 +655,18 @@ body>nav>div.navbar-collapse.collapse.w-100.order-3.dual-collapse2>ul>form>input
     background-color: #dddcdc;
     border-color: #dddcdc;
     margin-bottom: 30px;
+}
+
+#our-happy-client > div > div > div.container-fluid > div:nth-child(2) > div:nth-child(5) > img{
+	margin-top: 25px;
+}
+
+#our-happy-client > div > div > div.container-fluid > div.row.mt-4 > div:nth-child(5) > img{
+	margin-top: -10px;
+}
+
+#our-happy-client > div > div > div.container-fluid > div:nth-child(2) > div:nth-child(2) > img{
+	margin-top: 25px;
 }
 
 /*  MEET THE TEAM */
